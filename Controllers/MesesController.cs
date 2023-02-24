@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Admin.Cuentas.Controllers
 {
-    [Route("api/fesa-auth/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class MesesController : Controller
     {
