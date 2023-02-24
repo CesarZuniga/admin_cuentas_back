@@ -18,11 +18,11 @@ builder.Services.AddTransient<IMesesRepository, MesesRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment()) TODO: descomentar
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 
 app.UseHttpsRedirection();
